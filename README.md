@@ -27,23 +27,34 @@ Step 3:
 ### Front-End:
 
 
+>
+>
+>
+
+
 
 ### Cheapest Combination Algorithm:
 
 **CheapestCombination.java**
 
-Represents a single combination class that is then implemented by the main `CalculateCombinations.java` program 
-to populate winning combinations!
+> Represents a single combination class that is then implemented by the main `CalculateCombinations.java` program 
+> to populate winning combinations!
 
 
 **CalculateCombinations.java**
 
-
+>`ArrayList<CheapestCombination> allCombinations` stores all combinations that satisfy the order item and quantity.
+>However, this list then gets passed into `method bestCombination()` to return a single best combination!
+>
+>To actually find the `ArrayList allCombinations`, we use a recursive search algorithm `method bestLampCombination(){` and a driver `method findLampCombinations(){` that searches for all possible combinations and adds fullfilled combinations to the `ArrayList allCombinations` array!
+>
 
 
 ### Back-End:
 
-
+>
+>
+>
 
 
 
