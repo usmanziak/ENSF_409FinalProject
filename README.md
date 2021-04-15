@@ -9,36 +9,33 @@
 
 Step 1:
 
+Run the OrderGUI.java class and that will launch the GUI.
 
 Step 2:
 
+Enter the details into the GUI.
 
 Step 3:
 
+You will see the output order on your screen, and an order form .txt will also be generated.
 
 ## How the program is structured:
 
 **The program has been divided into 3 key parts:**
 
-**1. Front-End (GUI Development)**
-**2. Cheapest Combination Algorithm**
-**3. Back-End (DataBase)**
 
-### Front-End:
+### 1. Front-End:
 
 
->
->
->
+> `OrderGUI.java` is the file that contains the code for the GUI that users see when they run the program!
 
 
-
-### Cheapest Combination Algorithm:
+### 2. Cheapest Combination Algorithm:
 
 **CheapestCombination.java**
 
 > Represents a single combination class that is then implemented by the main `CalculateCombinations.java` program 
-> to populate winning combinations!
+> to populate winning combinations.
 
 
 **CalculateCombinations.java**
@@ -50,10 +47,11 @@ Step 3:
 >
 
 
-### Back-End:
+### 3. Back-End:
 
 >
->
+> The `Database.java` class contains all the fetching and updating of the database that is required for the proper 
+> functionality of the program.
 >
 
 
